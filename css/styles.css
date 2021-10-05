@@ -245,6 +245,11 @@ ul li {
   background-color: var(--background-btn-color);
 }
 
+.about-icon:hover {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .icon-card {
   width: 70px;
   height: 70px;
@@ -266,7 +271,7 @@ ul li {
 /* --------Робота---------- */
 
 .job {
-  padding-bottom: var(--containar-gap);
+  padding-bottom: var(--container-gap);
   background-color: var(--main-background-color);
 }
 
@@ -343,6 +348,7 @@ ul li {
 .networks-list {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
 .networks-item {
@@ -354,8 +360,7 @@ ul li {
   margin-left: 10px;
 }
 
-.networks-link,
-.networks-link-instagram {
+.networks-link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -364,10 +369,6 @@ ul li {
   border-radius: 50%;
   background: var(--main-background-color);
   cursor: pointer;
-}
-
-.networks-link-instagram {
-  background-color: var(--accent-color);
 }
 
 .networks-link:hover,
@@ -380,15 +381,10 @@ ul li {
   fill: var(--main-background-color);
 }
 
-.social-icon,
-.social-icon-instagram {
+.social-icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-}
-
-.social-icon-instagram {
-  fill: #ffffff;
 }
 
 /*------------------------ПОСТІЙНІ КЛІЄНТИ---------------------*/
@@ -602,6 +598,12 @@ ul li {
 
 .project-list:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+
+.project-list:hover,
+.project-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-definition {
