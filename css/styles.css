@@ -139,8 +139,7 @@ ul li {
 }
 
 .header-link-studio,
-.header-link-portfolio,
-.header-contacts-link-mail {
+.header-link-portfolio {
   color: var(--accent-color);
 }
 
@@ -431,15 +430,10 @@ ul li {
   margin-left: 30px;
 }
 
-.clients-icon,
-.clients-icon-group {
+.clients-icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
-}
-
-.clients-icon-group {
-  fill: var(--accent-color);
 }
 
 .clients-link {
@@ -519,13 +513,8 @@ ul li {
   fill: #ffffff;
 }
 
-.dark-bg,
-.dark-bg-one {
+.dark-bg {
   background: rgba(255, 255, 255, 0.1);
-}
-
-.dark-bg-one {
-  background-color: var(--accent-color);
 }
 
 /* -------------Проекти------------- */
